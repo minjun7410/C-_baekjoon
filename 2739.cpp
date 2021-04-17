@@ -1,4 +1,4 @@
-/* 일반 입출력, 사칙연산 문제 */
+/*기본 연산 문제*/
 
 #include <iostream>
 #include <stdio.h>

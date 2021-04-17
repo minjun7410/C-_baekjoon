@@ -1,7 +1,8 @@
+/*기본 연산 문제*/
 #include <iostream>
 using namespace std;
 
-int main(){
+int boj_1110(){
     int N, tmp;
     int count = 0;
     cin >> N;
