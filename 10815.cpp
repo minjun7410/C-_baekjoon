@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main(){
+int boj_10815(){
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     
@@ -21,8 +21,6 @@ int main(){
         cin >> sample[i];
     }
     sort(number_cards, number_cards+N);
-    
+    cout << number_cards << '\n';
     return 0;
 }
-
-int binary_search(int& ) /* pass by reference 로 배열을 전달한다. */
