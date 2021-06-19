@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int boj_1977(){
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     int M, N;
