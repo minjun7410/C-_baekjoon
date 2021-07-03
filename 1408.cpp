@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int boj_1408(){
     char clone;
     int result, hours, minutes, seconds, hours_s, minutes_s, seconds_s;
     cin >> hours >> clone >> minutes >> clone >> seconds;
