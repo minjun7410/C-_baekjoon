@@ -2,7 +2,6 @@
 #include <vector>
 #include <cstring>
 using namespace std;
-// cstring 을 익히고 string 끼리 더하는 것을 이용
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(NULL);
@@ -27,10 +26,11 @@ int main(){
     for(int i = 0; i < 8; i++){
         if(result[i] < 5){
             sums += array[i];
-            str = str + i+1;
+            str += to_string(i+1) + " ";
         }
     }
     cout << sums << '\n';
     cout << str << '\n';
+    
     return 0;
 }
